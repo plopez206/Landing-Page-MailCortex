@@ -8,7 +8,9 @@ const HeaderNav = () => (
   <header className="navbar navbar-expand-md navbar-light bg-white shadow-sm sticky-top">
     <div className="container">
       <a className="navbar-brand d-flex align-items-center" href="#">
-        <span className="fs-4 me-2">📬</span>Mail Cortex
+        {/* Replace emoji with PNG logo */}
+        <img src="/LogoMailCortex.png" alt="Mail Cortex Logo" width={52} height={52} className="me-2" />
+        Mail Cortex
       </a>
       <button
         className="navbar-toggler"
@@ -60,9 +62,6 @@ const HeroSection = () => (
             Apply for Early Access
           </a>
         </div>
-        {/* <div className="col-md-6 d-none d-md-block">
-          <img src="imagenEmail.png" alt="Email labels mockup" className="img-fluid rounded shadow" />
-        </div> */}
       </div>
     </div>
   </section>
