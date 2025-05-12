@@ -10,7 +10,7 @@ const HeaderNav = () => (
       <a className="navbar-brand d-flex align-items-center" href="#">
         {/* Replace emoji with PNG logo */}
         <img src="/LogoMailCortex.png" alt="Mail Cortex Logo" width={52} height={52} className="me-2" />
-        Mail Cortex
+        EMail Cortex
       </a>
       <button
         className="navbar-toggler"
